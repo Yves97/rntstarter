@@ -1,8 +1,8 @@
 {
-  "name": "thevmvni",
-  "version": "0.1.0",
-  "description": "React Native Template",
-  "repository": "https://github.com/Yves97/thevmvni.git",
-  "author": "Yves Kouadio <yvesamani008@gmail.com>",
-  "license": "LADD"
+  "name": "vmvni",
+  "version": "0.1.1",
+  "description": "Custom React Native Template",
+  "repository": "https://github.com/Yves97/rntstarter.git",
+  "author": "Yves Amani <yvesamani008@gmail.com>",
+  "license": "MIT"
 }
