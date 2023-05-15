@@ -13,6 +13,7 @@ React Native Template
   - you can change font by download your font and replace it in myApp/src/fonts/
     2. Images
     3. Global style
+- you can use react-native-rename to rename app
 
 ## Installation
 
