@@ -20,6 +20,10 @@ const rootReducers = combineReducers({
 const persistedReducer = persistReducer(persistConfig, rootReducers)
 const store = createStore(persistedReducer,applyMiddleware(thunk))
 const persistor = persistStore(store) 
-export {store,persistor}
+
+export type RootState = ReturnType<typeof store.getState>
+export type AppDispatch = typeof store.dispatch
+
+export {store, persistor}
 
 

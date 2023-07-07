@@ -1,15 +1,19 @@
 import * as actionTypes from '../../types/welcome/welcome'
 
-const initialState = {
+export type State = {
+    readonly welcome: string
+}
+
+const initialState: State = {
     welcome : 'welcome to my react native template'
 }
 
-const welcomeReducer = (state = initialState,action) => {
+const welcomeReducer = (state = initialState, action: actionTypes.ActionType) => {
     switch(action.type){
         case actionTypes.SET_WELCOME:
             return {
                 ...state,
-                welcome : action.welcome
+                welcome: action.paylaod
             }
         default:
             return state

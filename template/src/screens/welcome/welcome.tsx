@@ -1,8 +1,8 @@
 /**
  * Built In
 */
-import React, {useState} from 'react'
-import {Text,View,StyleSheet} from 'react-native'
+import React, {useState, FC} from 'react'
+import {Text, View, StyleSheet} from 'react-native'
 
 /**
  * External
@@ -13,8 +13,13 @@ import {Text,View,StyleSheet} from 'react-native'
 */
 import { assets } from '../../assets'
 
-const Welcome = () => {
-    const [message,setMessage] = useState('Welcome - My react native template')
+
+type Props = {
+
+}
+
+export const Welcome: FC<Props> = () => {
+    const [message, setMessage] = useState<string>('Welcome - My react native template')
     return (
         <View style={styles.container}>
             <Text style={styles.text}>{message}</Text>
@@ -32,5 +37,3 @@ const styles = StyleSheet.create({
         fontFamily : assets.fontFamily.MontserratRegular
     }
 })
-
-export default Welcome

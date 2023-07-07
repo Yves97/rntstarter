@@ -3,7 +3,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 
 //Screens
-import Welcome from './welcome/welcome'
+import { Welcome } from './welcome/welcome'
 
 //Stact Navigator
 const Stack = createNativeStackNavigator()
