@@ -4,20 +4,20 @@ React Native Template
 
 ## Features
 
-- react (hooks): 17.0.2
-- react Native: 0.66.4
-- react navigation v6
-- redux, redux-persist, redux-thunk, redux-hooks
-- including assets:
+- React + Typescript
+- React Native ( > 0.60 ) + Typescript
+- React navigation 6
+- Redux + Typescript, Redux Persist, Redux Thunk, Redux Hooks
+- Including Assets:
     1. Default Fonts: Montserrat-Regular
-  - you can change font by download your font and replace it in myApp/src/fonts/
-    2. Images
-    3. Global style
-- you can use react-native-rename to rename app
+          - You can change font by download your Font and replace it in [myApp/src/fonts/]
+          - You can use this [Guide](https://mehrankhandev.medium.com/ultimate-guide-to-use-custom-fonts-in-react-native-77fcdf859cf4) to help you
+    2. Global Style
+- You can use [react-native-rename](https://github.com/junedomingo/react-native-rename) to rename your App
 
 ## Installation
 
-you must have [Node](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed on your OS
+You must have [Node](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed on your OS
 
 ## Init
 
@@ -28,13 +28,9 @@ npx react-native init SomeApp --template https://github.com/Yves97/rntstarter.gi
 ## Launch
 
 ```bash
-npx react-native link
+ios: npm run ios
 ```
 
 ```bash
-ios: npx react-native run-ios
-```
-
-```bash
-android: npx react-native run-android
+android: npm run android
 ```
