@@ -1,6 +1,6 @@
 # My Custom React Native Template
 
-React Native Template
+React Native Template For Starting A Project
 
 ## Features
 
@@ -22,7 +22,7 @@ You must have [Node](https://nodejs.org/en/) and [Git](https://git-scm.com/) ins
 ## Init
 
 ```bash
-npx react-native init SomeApp --template https://github.com/Yves97/rntstarter.git
+npx react-native init SomeApp --template rnstarter
 ```
 
 ## Launch

@@ -1,14 +1,11 @@
 
 # Launch
 
+
 ```bash
-npx react-native link
+ios: npm run-ios
 ```
 
 ```bash
-ios: npx react-native run-ios
-```
-
-```bash
-android: npx react-native run-android
+android: npm run-android
 ```

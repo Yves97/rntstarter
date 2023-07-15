@@ -1,8 +1,14 @@
 {
   "name": "rntemplate",
-  "version": "1.0.0",
-  "description": "Custom React Native Template",
+  "version": "1.0.3",
+  "description": "React Native Template For Starting A Project",
   "repository": "https://github.com/Yves97/rntstarter.git",
   "author": "Yves Amani <yvesamani008@gmail.com>",
+  "keywords": [
+    "react-native",
+    "react",
+    "typescript",
+    "TSX"
+  ],
   "license": "MIT"
 }
