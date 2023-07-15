@@ -1,7 +1,6 @@
 
 # Launch
 
-
 ```bash
 ios: npm run-ios
 ```
