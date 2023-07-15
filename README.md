@@ -22,7 +22,7 @@ You must have [Node](https://nodejs.org/en/) and [Git](https://git-scm.com/) ins
 ## Init
 
 ```bash
-npx react-native init SomeApp --template rnstarter
+npx react-native init SomeApp --template rntstarter
 ```
 
 ## Launch
