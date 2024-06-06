@@ -1,6 +1,6 @@
-# My Custom React Native Template
+# My React Native Boilerplate
 
-React Native Template For Starting A Project
+React Native Template For Starting A Project With Typescript
 
 ## Features
 
