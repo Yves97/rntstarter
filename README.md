@@ -1,6 +1,6 @@
 # My React Native Boilerplate
 
-React Native Template For Starting A Project With Typescript
+React Native Template For Starting A Project
 
 ## Features
 
